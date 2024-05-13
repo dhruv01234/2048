@@ -37,7 +37,7 @@ function App() {
   }
 
   function check2048(tile){
-    if(tile==2048){
+    if(tile===2048){
       endGame()
     }
   }
