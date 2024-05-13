@@ -90,8 +90,14 @@ function endGame() {
 
   useEffect(() => {
     function handleKeyDown(event) {
-      if (event.key === 'ArrowUp') moveUp();
-      else if (event.key === 'ArrowDown') moveDown();
+      if (event.key === 'ArrowUp'){
+        event.preventDefault();
+      moveUp();
+    }
+      else if (event.key === 'ArrowDown'){
+        event.preventDefault();
+        moveDown();
+      }
       if (event.key === 'ArrowLeft') moveLeft();
       else if (event.key === 'ArrowRight') moveRight();
     }
