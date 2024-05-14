@@ -289,7 +289,7 @@ function endGame() {
           </div>
         </div>
         <div class="" style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', marginTop: '10px' }}>
-          <span class="desc" style={{ flex: 1, maxWidth: '50%', color: '#988776' }}>Join the numbers and get to the <strong>2028 tile!</strong></span>
+          <span class="desc" style={{ flex: 1, maxWidth: '50%', color: '#988776' }}>Join the numbers and get to the <strong>2048 tile!</strong></span>
           <div onClick={startNewGame} class="newGame" style={{ cursor: 'pointer' }}>New Game</div>
         </div>
         <div style={{ width: '100%', backgroundColor: '#BBADA0', marginTop: '4vh', padding: '10px', borderRadius: '10px' }}>
